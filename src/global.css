@@ -1,0 +1,43 @@
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #afcae3; 
+}
+
+
+.h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #361ccb;
+  padding: 40px;
+}
+
+.headerH1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: blue;
+  text-align: center;
+}
+.navigation {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 20px;
+ 
+ 
+}
+.active{
+  color: black;
+  text-decoration: none;
+}
+.nadpis{
+  font-size: 20px;
+  color: blue;
+  text-align: center;
+}
+.paragraf {
+  padding: 20px 100px;
+}
