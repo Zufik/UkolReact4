@@ -16,7 +16,7 @@ const CentersPage = () => {
 
     return(
         <div className="container">
-            <h2>Kde nás najdete</h2>
+            <h2 className="nadpis">Kde nás najdete</h2>
             <ul>
                 {center.map(item => (
                     <li key={item.id}>
