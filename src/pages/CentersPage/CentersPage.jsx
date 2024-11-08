@@ -25,9 +25,10 @@ const CentersPage = () => {
                                         <h3>{item.name}</h3>                               
                              </NavLink> 
                         </nav>
-                            <Outlet />
+                            
                     </li>
                 ))}
+                <Outlet />
             </ul>
            
         </div>

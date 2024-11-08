@@ -46,13 +46,11 @@ const router = createBrowserRouter([
       {
         path: "/pobocky",
         element: <CentersPage />,
-        children: [
-          {
-            path: "/pobocky/:id",
-            element: <CenterDetail />
+      },
+      {
+        path: "/pobocky/:id",
+        element: <CenterDetail />
           }
-        ]
-      }
     ]
   }
 ]);
